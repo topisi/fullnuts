@@ -7,4 +7,6 @@ Downloading and reading graphs from graph6 files.  ... A SageMath/Python program
 
 fullnuts.zip ... 173 latex files with Schlegel diagrams of the above nut fullerenes in the same order.
 
+partitions,txt ... pentagonal partitions that appear in the smallest 173 nut fullerenes.
+
 Other files will follow.

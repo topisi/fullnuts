@@ -1,0 +1,35 @@
+\documentclass[border=2mm]{standalone}
+\usepackage{tikz}
+\begin{document}
+\begin{tikzpicture}[line width=0.5pt,fill opacity=0.9,scale = 3.5]
+\tikzstyle{every path}=[draw, thick]
+\tikzstyle{every node}=[draw, circle, fill=red, inner sep=3.4pt]
+\coordinate (v_1) at (1.00000, -0.79160) {};
+\coordinate (v_2) at (1.39780, -0.26787) {};
+\coordinate (v_3) at (1.82443, 0.27992) {};
+\coordinate (v_6) at (2.22194, 0.77955) {};
+\coordinate (v_4) at (5.21199, 0.31519) {};
+\coordinate (v_5) at (4.26052, -0.00081) {};
+\coordinate (v_8) at (3.31637, -0.31438) {};
+\coordinate (v_7) at (6.21199, 0.98975) {};
+\coordinate (v_10) at (6.23084, 0.01007) {};
+\coordinate (v_11) at (6.25028, -0.99981) {};
+\path (v_1) -- (v_2);
+\path (v_2) -- (v_3);
+\path (v_3) -- (v_6);
+\path (v_4) -- (v_5);
+\path (v_5) -- (v_8);
+\path (v_7) -- (v_10);
+\path (v_10) -- (v_11);
+\node[red] (x_1) at (v_1) {};
+\node[red] (x_2) at (v_2) {};
+\node[red] (x_3) at (v_3) {};
+\node[red] (x_6) at (v_6) {};
+\node[red] (x_4) at (v_4) {};
+\node[red] (x_5) at (v_5) {};
+\node[red] (x_8) at (v_8) {};
+\node[red] (x_7) at (v_7) {};
+\node[red] (x_10) at (v_10) {};
+\node[red] (x_11) at (v_11) {};
+\end{tikzpicture}
+\end{document}
